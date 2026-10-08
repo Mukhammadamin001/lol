@@ -1,0 +1,9 @@
+{
+  "name": "context-bar",
+  "version": "0.1.0",
+  "description": "A color-coded context-window bar above the prompt, a /context-bar command, and toasts at 70% and 90% full",
+  "author": {
+    "name": "Mukhammadamin001"
+  },
+  "types": "./types/index.d.ts"
+}

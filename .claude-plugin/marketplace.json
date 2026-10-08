@@ -1,0 +1,13 @@
+{
+  "name": "lol",
+  "owner": {
+    "name": "Mukhammadamin001"
+  },
+  "description": "Claude Code mods from this repo: context-bar",
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": "./mods/context-bar"
+    }
+  ]
+}

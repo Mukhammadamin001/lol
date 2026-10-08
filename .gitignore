@@ -1,0 +1,3 @@
+# Laid by Claude Code when it loads a mod from a folder
+mods/*/.claude-plugin/types/
+mods/*/tsconfig.json
