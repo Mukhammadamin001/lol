@@ -65,3 +65,35 @@ To work on it, load it from your clone with
 claude plugin validate ./mods/context-bar
 claude plugin test ./mods/context-bar
 ```
+
+## Encore Music
+
+`music/` is a free music player that runs in the browser, styled after Apple
+Music. It needs no account and no subscription.
+
+- **Every song in the Apple catalog.** Search songs, albums and artists, and
+  browse top charts by country and genre. Songs play as Apple's free 30-second
+  previews, which come from the public iTunes Search API.
+- **Free full songs.** Complete tracks that independent artists share for free
+  on [Audius](https://audius.co).
+- **My Files.** Add MP3, M4A, WAV, OGG or FLAC files you own. They play in full
+  and stay in your browser.
+- Liked songs, playlists, a queue, shuffle and repeat, synced lyrics (from
+  LRCLIB), lock-screen controls, and light and dark mode. Works on phones too.
+- Each song's ••• menu links to the full song on YouTube or Apple Music.
+
+Full-length songs from the Apple catalog need an Apple Music subscription, so
+the app only plays the previews Apple makes free.
+
+### Use it
+
+Open `music/index.html` in a browser. There's nothing to install or build.
+
+To get a link you can open on your phone, turn on GitHub Pages: go to
+**Settings → Pages**, pick **Deploy from a branch**, then choose `main` and
+`/ (root)`. The player is then at
+`https://<your-user>.github.io/lol/music/`.
+
+Keyboard: <kbd>Space</kbd> plays or pauses, <kbd>←</kbd>/<kbd>→</kbd> seek
+5 seconds, <kbd>Shift</kbd>+<kbd>←</kbd>/<kbd>→</kbd> skip songs, and
+<kbd>/</kbd> jumps to search.
